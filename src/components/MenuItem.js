@@ -4,7 +4,7 @@ const MenuItem = ({ text, onSelect }) => {
   const handleClick = () => onSelect(text);
 
   return (
-    <a href="#" onClick={handleClick}>
+    <a className="nav-link" href="#" onClick={handleClick}>
       {text}
     </a>
   );

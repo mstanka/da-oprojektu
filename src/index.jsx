@@ -11,10 +11,12 @@ const App = () => {
   };
   return (
     <div className="container">
-      <header>
-        <MenuItem text="Domů" onSelect={handleSelectItem} />
-        <MenuItem text="O projektu" onSelect={handleSelectItem} />
-        <MenuItem text="O nás" onSelect={handleSelectItem} />
+      <header className="header">
+        <nav className="nav">
+          <MenuItem text="Domů" onSelect={handleSelectItem} />
+          <MenuItem text="O projektu" onSelect={handleSelectItem} />
+          <MenuItem text="O nás" onSelect={handleSelectItem} />
+        </nav>
       </header>
       <main>
         {showPage === 'Domů' ? <div>Home Page</div> : null}
