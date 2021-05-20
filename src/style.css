@@ -64,6 +64,11 @@ html {
   outline: 3px dotted var(--primary-color-light);
 }
 
+.page-content {
+  color: var(--dark-color);
+  text-align: center;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
