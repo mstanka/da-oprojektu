@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pattaya&display=swap');
 
 :root {
   --primary-color: #aa5b49;
-  /*  predtim: #8a3f2f; */
-  --primary-color-light: #e7c1b8;
+  --primary-color-light: #f1d3cc;
   --primary-color-dark: #7e4235;
-  /*predtim: #422d28; */
   --secondary-color: #bd5740;
   --dark-color: #0a0403;
 }
@@ -17,14 +15,25 @@
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding-bottom: 2rem;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 .container {
   max-width: 60rem;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 .header {
@@ -71,6 +80,17 @@ html {
   min-width: 100%;
   min-height: 40rem;
   border-radius: 0 0 4px 4px;
+}
+
+.page-content {
+  color: var(--dark-color);
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {

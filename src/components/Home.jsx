@@ -1,7 +1,6 @@
 import React from 'react';
-import './style.css';
 
-const Domu = () => {
+const Home = () => {
   return (
     <>
       <div className="page-content">
@@ -33,4 +32,4 @@ const Domu = () => {
   );
 };
 
-export default Domu;
+export default Home;

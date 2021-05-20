@@ -1,8 +1,7 @@
 import React from 'react';
-import './style.css';
 // import PhotoKata from 'src/img/fotka Kata.jpg';
 
-const Domu = () => {
+const About = () => {
   return (
     <>
       <div className="page-content">
@@ -32,4 +31,4 @@ const Domu = () => {
   );
 };
 
-export default Domu;
+export default About;
