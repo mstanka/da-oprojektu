@@ -28,14 +28,14 @@ html {
 }
 
 .header {
-  min-height: 8rem;
+  min-height: 5rem;
   background: linear-gradient(var(--primary-color), var(--primary-color-dark));
   font-family: 'Pattaya', sans-serif;
 }
 
 .nav {
   max-width: 30rem;
-  min-height: 8rem;
+  min-height: 5rem;
   margin-left: auto;
   display: flex;
   align-items: center;
@@ -64,9 +64,13 @@ html {
   outline: 3px dotted var(--primary-color-light);
 }
 
-.page-content {
-  color: var(--dark-color);
-  text-align: center;
+.img-main {
+  background-image: url(./img/palms.jpg);
+  background-size: cover;
+  filter: contrast(110%);
+  min-width: 100%;
+  min-height: 40rem;
+  border-radius: 0 0 4px 4px;
 }
 
 footer {
@@ -76,5 +80,5 @@ footer {
   color: var(--primary-color-light);
   font-family: 'Pattaya', sans-serif;
   text-align: right;
-  padding: 10px;
+  padding: 10px 20px;
 }

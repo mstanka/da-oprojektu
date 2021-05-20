@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pattaya&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --primary-color: #aa5b49;
+  /*  predtim: #8a3f2f; */
+  --primary-color-light: #e7c1b8;
+  --primary-color-dark: #7e4235;
+  /*predtim: #422d28; */
+  --secondary-color: #bd5740;
+  --dark-color: #0a0403;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content {
+  color: var(--dark-color);
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding-bottom: 2rem;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
