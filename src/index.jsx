@@ -24,7 +24,8 @@ const App = () => {
         {showPage === 'O nás' ? <div>About Us Page</div> : null}
       </main>
       <footer>
-        <p>Czechitas, Digitální akademie: Web</p>
+        <div> Czechitas, Digitální akademie: Web </div>
+        <div> © 2021 Markéta Staňková & Kateřina Levová </div>
       </footer>
     </div>
   );

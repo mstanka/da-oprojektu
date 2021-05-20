@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pattaya&display=swap');
 
 :root {
-  --primary-color: #8a3f2f;
-  --primary-color-light: #d7b3ab;
-  --primary-color-dark: #422d28;
+  --primary-color: #aa5b49;
+  /*  predtim: #8a3f2f; */
+  --primary-color-light: #e7c1b8;
+  --primary-color-dark: #7e4235;
+  /*predtim: #422d28; */
   --secondary-color: #bd5740;
   --dark-color: #0a0403;
 }
@@ -60,4 +62,14 @@ html {
 
 .nav-link:focus {
   outline: 3px dotted var(--primary-color-light);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(var(--primary-color), var(--primary-color-dark));
+  color: var(--primary-color-light);
+  font-family: 'Pattaya', sans-serif;
+  text-align: right;
+  padding: 10px;
 }
