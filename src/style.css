@@ -76,10 +76,8 @@ p {
 .img-main {
   background-image: url(./img/palms.jpg);
   background-size: cover;
-  filter: contrast(110%);
-  min-width: 100%;
-  min-height: 40rem;
-  border-radius: 0 0 4px 4px;
+  background-position: center;
+  height: 40vh;
 }
 
 .page-content {
