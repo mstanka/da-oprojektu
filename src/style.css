@@ -87,6 +87,22 @@ a {
   height: 40vh;
 }
 
+.img-us {
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.kata {
+  margin-right: 50px;
+  margin-left: 0;
+}
+
+.about-us {
+  display: flex;
+  text-align: justify;
+}
+
 .page-content {
   color: var(--dark-color);
   font-family: 'Josefin Sans', sans-serif;
