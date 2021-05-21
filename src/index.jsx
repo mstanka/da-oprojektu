@@ -1,37 +1,56 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
-import MenuItem from './components/MenuItem';
-import Home from './components/Home';
-import About from './components/About';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Project from './pages/Project';
 import './style.css';
 
 const App = () => {
-  const [showPage, setShowPage] = useState('Domů');
-
-  const handleSelectItem = (page) => {
-    setShowPage(page);
-  };
-
   return (
-    <div className="container">
-      <header className="header">
-        <nav className="nav">
-          <MenuItem text="Domů" onSelect={handleSelectItem} />
-          <MenuItem text="O projektu" onSelect={handleSelectItem} />
-          <MenuItem text="O nás" onSelect={handleSelectItem} />
-        </nav>
-        <div className="img-main"></div>
-      </header>
-      <main>
-        {showPage === 'Domů' ? <Home /> : null}
-        {showPage === 'O projektu' ? <div>Project Page</div> : null}
-        {showPage === 'O nás' ? <About /> : null}
-      </main>
-      <footer>
-        <div> Czechitas, Digitální akademie: Web </div>
-        <div> © 2021 Markéta Staňková & Kateřina Levová </div>
-      </footer>
-    </div>
+    <BrowserRouter>
+      <div className="container">
+        <header className="header">
+          <nav className="nav">
+            <ul>
+              <li>
+                <Link to="/" className="nav-link">
+                  Domů
+                </Link>
+              </li>
+              <li>
+                <Link to="/o-projektu" className="nav-link">
+                  O projektu
+                </Link>
+              </li>
+              <li>
+                <Link to="/o-nas" className="nav-link">
+                  O nás
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          <div className="img-main"></div>
+        </header>
+        <main>
+          <Switch>
+            <Route path="/o-projektu">
+              <Project />
+            </Route>
+            <Route path="/o-nas">
+              <About />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </main>
+        <footer>
+          <div> Czechitas, Digitální akademie: Web </div>
+          <div> © 2021 Markéta Staňková & Kateřina Levová </div>
+        </footer>
+      </div>
+    </BrowserRouter>
   );
 };
 
