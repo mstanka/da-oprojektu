@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pattaya&display=swap');
 
 :root {
-  --primary-color: #9c5e34;
+  --primary-color: #a16741;
   /* #aa5b49; */
   --primary-color-light: #f1dcd7;
   /* #f1dcd7; */
-  --primary-color-dark: #58361e;
-  /* #68372c; */
+  --primary-color-dark: #68372c;
   --secondary-color: #bd5740;
   --dark-color: #0a0403;
 }
