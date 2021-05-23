@@ -21,11 +21,12 @@ const Project = () => {
         se budou nacházet. U každého chystáme informace o dopravě, tipy na
         zajímavá místa k vidění, případně na dobré jídlo nebo supermarket poblíž
         (takový piknik s obyčejným čerstvým chlebem a francouzským sýrem a vínem
-        pod vodopádem!). Každý výlet bude mít svou vlastní galerii fotek.
+        pod vodopádem!).
       </p>
       <p>
-        Pokud se raději rozhodujete na základě polohy, můžete si jednotlivé
-        výlety rozkliknout i na interaktivní mapě.
+        Každý výlet bude mít svou vlastní galerii fotek. Pokud se raději
+        rozhodujete na základě polohy, můžete si jednotlivé výlety rozkliknout i
+        na interaktivní mapě.
       </p>
       <p>Níže pár fotek jako lákadlo :)</p>
       <Gallery photos={photos} />;

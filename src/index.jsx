@@ -46,8 +46,10 @@ const App = () => {
           </Switch>
         </main>
         <footer>
-          <div> Czechitas, Digitální akademie: Web </div>
-          <div> © 2021 Markéta Staňková & Kateřina Levová </div>
+          <div className="footer1"> Czechitas, Digitální akademie: Web </div>
+          <div className="footer2">
+            © 2021 Markéta Staňková & Kateřina Levová
+          </div>
         </footer>
       </div>
     </BrowserRouter>

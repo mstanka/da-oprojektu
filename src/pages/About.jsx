@@ -7,8 +7,8 @@ const About = () => {
       <section className="page-content">
         <h1> O nás </h1>
         <h2> Markéta </h2>
-        <section className="about-us marketa">
-          <p>
+        <section className="about-us">
+          <p className="text-us">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ab
             culpa quaerat quasi nostrum sed illum iste, facilis magni, natus
             laboriosam sapiente corporis vel. Possimus iure quam laborum maxime
@@ -17,9 +17,11 @@ const About = () => {
           <img src="" alt="" className="img-us"></img>
         </section>
         <h2> Káťa </h2>
-        <section className="about-us kata">
+        <section className="about-us">
+          {/* <div className="section-img-us"> */}
           <img src={PhotoKata} alt="Fotka Káťa" className="img-us" />
-          <p>
+          {/* </div> */}
+          <p className="text-us">
             Na ostrově jsem strávila 6 měsíců jako au-pair. Žila jsem v napůl
             české a napůl reunionské rodině, spřátelila jsem se místními
             studenty a od všech jsem sondovala tipy na výlety, které Vám ráda
