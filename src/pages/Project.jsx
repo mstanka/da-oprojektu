@@ -7,17 +7,27 @@ const Project = () => {
     <div className="page-content">
       <h1>O projektu</h1>
       <p>
-        Etiam dignissim sem non eleifend tempor. Nullam eget suscipit mauris.
-        Nunc vel magna vitae mauris pulvinar efficitur. Integer a lorem non urna
-        hendrerit consequat. Nulla semper risus enim, ac vehicula elit rutrum
-        nec. Aliquam non aliquet velit. Ut interdum massa nec ultricies
-        vulputate. Cras quis elit ex. Suspendisse magna tellus, condimentum quis
-        tellus a, congue varius mi. Sed placerat commodo purus, a venenatis eros
-        pretium ac. Aenean efficitur ante mauris, eget sodales tortor aliquam
-        facilisis. Etiam dignissim vel massa non ultrices. Vivamus sit amet nisi
-        id libero vestibulum imperdiet. Nullam semper pellentesque risus eget
-        feugiat.
+        Chystáme pro Vás cestovatelský web, na kterém si budete moci vybrat
+        výlet, tak, jak to pro Vás bude nejpohodlnější.
       </p>
+      <p>
+        Na jedné stránce bude dostupný seznam výletů podle kategorií - záleží
+        zda bude Vaším cílem pláž, stoupání na vrcholky hor, pěší túra s
+        překročením řeky, koupání v jezeře s vodopádem anebo třeba návštěva
+        farmářských trhů či pěstírny vanilky.
+      </p>
+      <p>
+        Výlety si budete moci zobrazit také podle názvů nebo části ostrova, kde
+        se budou nacházet. U každého chystáme informace o dopravě, tipy na
+        zajímavá místa k vidění, případně na dobré jídlo nebo supermarket poblíž
+        (takový piknik s obyčejným čerstvým chlebem a francouzským sýrem a vínem
+        pod vodopádem!). Každý výlet bude mít svou vlastní galerii fotek.
+      </p>
+      <p>
+        Pokud se raději rozhodujete na základě polohy, můžete si jednotlivé
+        výlety rozkliknout i na interaktivní mapě.
+      </p>
+      <p>Níže pár fotek jako lákadlo :)</p>
       <Gallery photos={photos} />;
     </div>
   );

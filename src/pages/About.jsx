@@ -18,12 +18,12 @@ const About = () => {
         </section>
         <h2> Káťa </h2>
         <section className="about-us kata">
-          <img src={PhotoKata} alt="Fotka Káťa" className="img-us" />;
+          <img src={PhotoKata} alt="Fotka Káťa" className="img-us" />
           <p>
             Na ostrově jsem strávila 6 měsíců jako au-pair. Žila jsem v napůl
             české a napůl reunionské rodině, spřátelila jsem se místními
-            studenty a celou jsem od všech sondovala tipy na výlety, které Vám
-            ráda předám. Jsem spíše plážový a koupací typ, tipy na hory
+            studenty a od všech jsem sondovala tipy na výlety, které Vám ráda
+            předám. Já osobně jsem spíše plážový a koupací typ, tipy na hory
             dostanete zase od Markét. :) Ostrov má spoustu specifik, na které je
             třeba dávat si pozor, jako např. nevyzpytatelnost počasí a dopravy,
             ale také nejkrásnější západy slunce, panoramata hor a modře čisté

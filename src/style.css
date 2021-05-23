@@ -87,6 +87,12 @@ a {
   height: 40vh;
 }
 
+.link-to-project a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
 .img-us {
   height: 200px;
   border-radius: 20px;
