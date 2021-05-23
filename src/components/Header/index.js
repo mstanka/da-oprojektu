@@ -6,7 +6,11 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-wrapper">
-        <div className="logo">Logo</div>
+        <div className="logo">
+          <div>Réunion &nbsp;</div>
+          <div>trochu &nbsp;</div>
+          <div>jinak</div>
+        </div>
         <nav className="nav">
           <ul>
             <li>
