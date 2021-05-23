@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #aa5b49;
-  --primary-color-light: #f1d3cc;
+  --primary-color-light: #f1dcd7;
   --primary-color-dark: #68372c;
   --secondary-color: #bd5740;
   --dark-color: #0a0403;
@@ -38,7 +38,7 @@ a {
 .container {
   max-width: 60rem;
   margin: 0 auto;
-  /* min-height: 100vh; */
+  background-color: var(--primary-color-light);
 }
 
 .link-to-project a {
