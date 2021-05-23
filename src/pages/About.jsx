@@ -1,36 +1,44 @@
 import React from 'react';
-import PhotoKata from '../img/fotkakata.jpg';
 
 const About = () => {
   return (
     <>
       <section className="page-content">
         <h1> O nás </h1>
-        <h2> Markéta </h2>
         <section className="about-us">
-          <p className="text-us">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi ab
-            culpa quaerat quasi nostrum sed illum iste, facilis magni, natus
-            laboriosam sapiente corporis vel. Possimus iure quam laborum maxime
-            illo.
-          </p>
-          <img src="" alt="" className="img-us"></img>
+          <div className="text-us">
+            <h2> Markéta </h2>
+            <p>
+              Turistika patří mezi moje oblíbené činnosti a pokud je kolem
+              krásná příroda, tak jako na ostrově Réunion, užívám si tím víc. Na
+              ostrově jsem strávila 14 dnů dovolené a prošla část vnitrozemí v
+              oblasti kráterů Mafate, Salazie a Cilaos. Během svých cest ráda
+              fotím a i touto obrazovou cestou vám ráda předám svoje zážitky a
+              zkušenosti.
+            </p>
+          </div>
+          <div className="img-us">
+            <img src="../assets/marketa.jpg" alt="Markéta" />
+          </div>
         </section>
-        <h2> Káťa </h2>
         <section className="about-us">
-          {/* <div className="section-img-us"> */}
-          <img src={PhotoKata} alt="Fotka Káťa" className="img-us" />
-          {/* </div> */}
-          <p className="text-us">
-            Na ostrově jsem strávila 6 měsíců jako au-pair. Žila jsem v napůl
-            české a napůl reunionské rodině, spřátelila jsem se místními
-            studenty a od všech jsem sondovala tipy na výlety, které Vám ráda
-            předám. Já osobně jsem spíše plážový a koupací typ, tipy na hory
-            dostanete zase od Markét. :) Ostrov má spoustu specifik, na které je
-            třeba dávat si pozor, jako např. nevyzpytatelnost počasí a dopravy,
-            ale také nejkrásnější západy slunce, panoramata hor a modře čisté
-            laguny a moře. Budu se těšit, že z našich zážitků něco využijete!
-          </p>
+          <div className="text-us">
+            <h2> Káťa </h2>
+            <p>
+              Na ostrově jsem strávila 6 měsíců jako au-pair. Žila jsem v napůl
+              české a napůl reunionské rodině, spřátelila jsem se místními
+              studenty a od všech jsem sondovala tipy na výlety, které Vám ráda
+              předám. Já osobně jsem spíše plážový a koupací typ, tipy na hory
+              dostanete zase od Markét. :) Ostrov má spoustu specifik, na které
+              je třeba dávat si pozor, jako např. nevyzpytatelnost počasí a
+              dopravy, ale také nejkrásnější západy slunce, panoramata hor a
+              modře čisté laguny a moře. Budu se těšit, že z našich zážitků něco
+              využijete!
+            </p>
+          </div>
+          <div className="img-us">
+            <img src="../assets/kata.jpg" alt="Fotka Káťa" />
+          </div>
         </section>
       </section>
     </>
