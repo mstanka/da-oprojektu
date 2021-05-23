@@ -122,38 +122,9 @@ a {
   margin-right: auto;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: linear-gradient(var(--primary-color), var(--primary-color-dark));
-  color: var(--primary-color-light);
-  font-family: 'Pattaya', sans-serif;
-  padding: 10px 20px;
-  text-align: center;
-}
-
-.footer1 {
-  margin-bottom: 10px;
-}
-
 @media screen and (min-width: 500px) {
   .img-us {
     width: 70%;
-  }
-}
-@media screen and (min-width: 600px) {
-  footer {
-    flex-direction: row;
-    padding: 10px 20px;
-  }
-
-  .footer1 {
-    text-align: left;
-    margin-bottom: 0;
-  }
-  .footer2 {
-    text-align: right;
   }
 }
 

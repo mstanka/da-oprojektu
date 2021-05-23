@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Project from './pages/Project';
+import Footer from './components/Footer';
 import './style.css';
 
 const App = () => {
@@ -45,12 +46,7 @@ const App = () => {
             </Route>
           </Switch>
         </main>
-        <footer>
-          <div className="footer1"> Czechitas, Digitální akademie: Web </div>
-          <div className="footer2">
-            © 2021 Markéta Staňková & Kateřina Levová
-          </div>
-        </footer>
+        <Footer />
       </div>
     </BrowserRouter>
   );
